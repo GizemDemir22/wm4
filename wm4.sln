@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wm4", "wm4\wm4.csproj", "{C274D66B-6C93-400D-B5F0-E2C1B22EE4D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gun1", "gun1", "{425E8DC6-0C29-42A6-8EAB-AE6160BC3334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "degiskenler", "degiskenler\degiskenler.csproj", "{A1BE5F43-7584-417A-94D5-DC6B94DA17DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C274D66B-6C93-400D-B5F0-E2C1B22EE4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C274D66B-6C93-400D-B5F0-E2C1B22EE4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C274D66B-6C93-400D-B5F0-E2C1B22EE4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C274D66B-6C93-400D-B5F0-E2C1B22EE4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BE5F43-7584-417A-94D5-DC6B94DA17DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BE5F43-7584-417A-94D5-DC6B94DA17DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BE5F43-7584-417A-94D5-DC6B94DA17DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BE5F43-7584-417A-94D5-DC6B94DA17DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1BE5F43-7584-417A-94D5-DC6B94DA17DC} = {425E8DC6-0C29-42A6-8EAB-AE6160BC3334}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89932426-1991-4304-9A74-0287C5A86E0A}
+	EndGlobalSection
+EndGlobal
