@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wm4", "wm4\wm4.csproj", "{C274D66B-6C93-400D-B5F0-E2C1B22EE4D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wm4", "wm4\wm4.csproj", "{C274D66B-6C93-400D-B5F0-E2C1B22EE4D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gun1", "gun1", "{425E8DC6-0C29-42A6-8EAB-AE6160BC3334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "degiskenler", "degiskenler\degiskenler.csproj", "{A1BE5F43-7584-417A-94D5-DC6B94DA17DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "degiskenler", "degiskenler\degiskenler.csproj", "{A1BE5F43-7584-417A-94D5-DC6B94DA17DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "karar yapıları", "karar yapıları\karar yapıları.csproj", "{9B4A3C82-4709-4384-B00B-77C5E91D8744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "karar yapıları", "karar yapıları\karar yapıları.csproj", "{9B4A3C82-4709-4384-B00B-77C5E91D8744}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gun2", "gun2", "{847912DD-CC28-4B8F-BAD4-542DE2993D7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "imputişlemleri", "imputişlemleri\imputişlemleri.csproj", "{40CC5829-9C69-405F-8529-2AB683B34F2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "random nesnesi", "random nesnesi\random nesnesi.csproj", "{95DBE7D3-BD26-46F6-93BB-F0B6B8184CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "odevler1", "odevler1\odevler1.csproj", "{85828751-15C0-4760-9D66-AE55B9CDDCC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +37,29 @@ Global
 		{9B4A3C82-4709-4384-B00B-77C5E91D8744}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B4A3C82-4709-4384-B00B-77C5E91D8744}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B4A3C82-4709-4384-B00B-77C5E91D8744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40CC5829-9C69-405F-8529-2AB683B34F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CC5829-9C69-405F-8529-2AB683B34F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CC5829-9C69-405F-8529-2AB683B34F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CC5829-9C69-405F-8529-2AB683B34F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DBE7D3-BD26-46F6-93BB-F0B6B8184CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DBE7D3-BD26-46F6-93BB-F0B6B8184CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DBE7D3-BD26-46F6-93BB-F0B6B8184CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DBE7D3-BD26-46F6-93BB-F0B6B8184CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85828751-15C0-4760-9D66-AE55B9CDDCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85828751-15C0-4760-9D66-AE55B9CDDCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85828751-15C0-4760-9D66-AE55B9CDDCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85828751-15C0-4760-9D66-AE55B9CDDCC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{C274D66B-6C93-400D-B5F0-E2C1B22EE4D6} = {425E8DC6-0C29-42A6-8EAB-AE6160BC3334}
 		{A1BE5F43-7584-417A-94D5-DC6B94DA17DC} = {425E8DC6-0C29-42A6-8EAB-AE6160BC3334}
+		{9B4A3C82-4709-4384-B00B-77C5E91D8744} = {425E8DC6-0C29-42A6-8EAB-AE6160BC3334}
+		{40CC5829-9C69-405F-8529-2AB683B34F2A} = {847912DD-CC28-4B8F-BAD4-542DE2993D7B}
+		{95DBE7D3-BD26-46F6-93BB-F0B6B8184CA2} = {847912DD-CC28-4B8F-BAD4-542DE2993D7B}
+		{85828751-15C0-4760-9D66-AE55B9CDDCC3} = {847912DD-CC28-4B8F-BAD4-542DE2993D7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89932426-1991-4304-9A74-0287C5A86E0A}

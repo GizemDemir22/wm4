@@ -74,6 +74,30 @@ namespace karar_yapıları
                     continue;
                 Console.WriteLine(sonrakigun);
                 gunsayisi++;
+
+                //do while
+                
+                    sayac = 0; gunsayisi = 0;
+                do
+                {
+                    sonrakigun = tarih.AddDays(sayac);
+                    sayac++;
+                    if 
+              
+                       (sonrakigun.DayOfWeek == DayOfWeek.Saturday || sonrakigun.DayOfWeek == DayOfWeek.Sunday)
+                        continue;
+                    Console.WriteLine(sonrakigun);
+                    gunsayisi++;
+                } while (gunsayisi < 100);
+
+                //break continue return
+
+                for (int i = 0; i < 1000; i++)
+                {
+                    Console.WriteLine(i);
+                }
+
+
             }
 
         }
