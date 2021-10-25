@@ -11,6 +11,7 @@ namespace odevler1
             int kullaniciSayi;
             Console.Write("BOM sayısını giriniz:");
             int bom = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("oyun başlıyor...");
             Console.WriteLine("");
             while(pcSayi<101)
